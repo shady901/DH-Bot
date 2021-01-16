@@ -35,7 +35,7 @@ namespace DH_Bot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "NjcwNDUwMzA0NDk5NzEyMDMy.Xi-P7Q.xsv9H_mVIfF-O-sqzWi-o3lO_Gs";
+            string token = "testtoken";
 
             _client.Log += _client_Log;
 
